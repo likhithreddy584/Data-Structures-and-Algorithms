@@ -5,6 +5,7 @@ def natural_numbers(n):
 
 n = int(input("enter a  number :"))
 
+
 natural_numbers(n)
 
 print("n+1 natural numbers starting...")
