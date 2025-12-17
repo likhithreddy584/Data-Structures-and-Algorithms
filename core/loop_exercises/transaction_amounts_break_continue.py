@@ -7,3 +7,5 @@ def transaction_amounts(amounts):
             break 
         else :
             print("processing :" ,amount )
+
+transaction_amounts([100,-50,200,-20,50,9999,300])
