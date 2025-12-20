@@ -3,5 +3,5 @@ def remove_element(s, element):
         s.remove(element)
     return s
 
-s = {10, 20, 30}
-print(remove_element(s, 20))
+s = {1, 2, 3}
+print(remove_element(s, 2))
