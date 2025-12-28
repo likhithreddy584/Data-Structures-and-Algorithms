@@ -1,8 +1,9 @@
-## 7. sorted() - Sort Any Iterable
+# sorted() - Sort Any Iterable
 
 Returns a sorted list from any iterable, with options for reverse order and custom sorting logic.
 
-### Basic Sorting
+## Basic Sorting
+
 ```python
 numbers = [5, 2, 8, 1, 9, 3]
 sorted_nums = sorted(numbers)
@@ -10,14 +11,16 @@ print(sorted_nums)
 # [1, 2, 3, 5, 8, 9]
 ```
 
-### Reverse Order
+## Reverse Order
+
 ```python
 sorted_desc = sorted(numbers, reverse=True)
 print(sorted_desc)
 # [9, 8, 5, 3, 2, 1]
 ```
 
-### Custom Sorting with Key
+## Custom Sorting with Key
+
 ```python
 people = [
     {"name": "Alice", "age": 30},

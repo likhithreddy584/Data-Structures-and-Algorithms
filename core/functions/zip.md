@@ -1,8 +1,9 @@
-## 9. zip() - Combine Multiple Iterables
+# zip() - Combine Multiple Iterables
 
 Combines multiple iterables element-by-element into tuples, automatically handling length mismatches.
 
-### Without zip (manual way)
+## Without zip (manual way)
+
 ```python
 names = ["Alice", "Bob", "Charlie", "Tim"]
 ages = [30, 25, 35]
@@ -11,7 +12,8 @@ for i in range(min(len(names), len(ages))):
     print(f"{names[i]} is {ages[i]} years old")
 ```
 
-### With zip (elegant way)
+## With zip (elegant way)
+
 ```python
 names = ["Alice", "Bob", "Charlie", "Tim"]
 ages = [30, 25, 35]
@@ -24,7 +26,8 @@ for name, age in zip(names, ages):
 # (Tim is excluded - no corresponding age)
 ```
 
-### Multiple Iterables
+## Multiple Iterables
+
 ```python
 names = ["Alice", "Bob", "Charlie"]
 ages = [30, 25, 35]

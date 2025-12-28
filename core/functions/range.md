@@ -1,8 +1,8 @@
-# 3. range() - Generate Number Sequences
+# range() - Generate Number Sequences
 
 Creates sequences of numbers, commonly used in for loops but also useful for generating numeric lists.
 
-### Syntax Patterns
+## Syntax Patterns
 
 **One argument** (stop only):
 ```python

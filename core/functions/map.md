@@ -1,8 +1,9 @@
-## 4. map() - Apply Function to All Items
+# map() - Apply Function to All Items
 
 Applies a function to every item in an iterable (list, tuple, string, etc.) without manual loops.
 
-### Basic Example
+## Basic Example
+
 ```python
 strings = ["my", "world", "apple", "pear"]
 
@@ -12,7 +13,8 @@ print(lengths)
 # [2, 5, 5, 4]
 ```
 
-### Using Lambda Functions
+## Using Lambda Functions
+
 ```python
 # Add 's' to each string
 pluralized = list(map(lambda x: x + "s", strings))
@@ -26,7 +28,8 @@ print(squared)
 # [1, 4, 9, 16, 25]
 ```
 
-### Using Custom Functions
+## Using Custom Functions
+
 ```python
 def add_suffix(string):
     return string + "s"

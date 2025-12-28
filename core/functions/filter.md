@@ -1,8 +1,9 @@
-## 5. filter() - Keep Only Matching Items
+# filter() - Keep Only Matching Items
 
 Filters an iterable by keeping only items where a function returns `True`.
 
-### Basic Example
+## Basic Example
+
 ```python
 strings = ["my", "world", "apple", "pear"]
 
@@ -14,7 +15,8 @@ print(filtered)
 # ['world', 'apple']
 ```
 
-### Using Lambda
+## Using Lambda
+
 ```python
 # More concise version
 filtered = list(filter(lambda x: len(x) > 4, strings))

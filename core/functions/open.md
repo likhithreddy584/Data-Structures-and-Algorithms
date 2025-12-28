@@ -1,8 +1,9 @@
-## 10. open() - File Operations
+# open() - File Operations
 
 Opens files for reading, writing, or appending, with proper resource management using context managers.
 
-### Writing to a File (W mode)
+## Writing to a File (W mode)
+
 ```python
 # Overwrites file if it exists
 with open("test.txt", "w") as file:
@@ -11,7 +12,8 @@ with open("test.txt", "w") as file:
 # File automatically closed after this block
 ```
 
-### Reading from a File (R mode)
+## Reading from a File (R mode)
+
 ```python
 with open("test.txt", "r") as file:
     text = file.read()
@@ -20,14 +22,16 @@ with open("test.txt", "r") as file:
 # My name is Tim
 ```
 
-### Appending to a File (A mode)
+## Appending to a File (A mode)
+
 ```python
 # Adds to end without overwriting
 with open("test.txt", "a") as file:
     file.write("\nNew addition")
 ```
 
-### File Modes
+## File Modes
+
 - **"r"** - Read (default mode)
 - **"w"** - Write (creates new or overwrites existing)
 - **"a"** - Append (adds to end of existing file)
@@ -35,7 +39,8 @@ with open("test.txt", "a") as file:
 - **"w+"** - Write and read (overwrites)
 - **"a+"** - Append and read
 
-### Why Use Context Managers?
+## Why Use Context Managers?
+
 ```python
 # DON'T DO THIS (manual close)
 file = open("test.txt", "w")
