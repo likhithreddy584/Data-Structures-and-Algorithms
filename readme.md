@@ -29,3 +29,5 @@
 
 ## sorting algorithms
 - [insertion sort](./sorting/insertion_sort.py)
+- [bubble sort](./sorting/bubble_sort.py)
+- [selection sort](./sorting/selection_sort.py)
