@@ -26,3 +26,6 @@
 ## Problems
 
 - [Contains Duplicate](./problems/contains-duplicate.md)
+
+## sorting algorithms
+- [insertion sort](./sorting/insertion_sort.py)
